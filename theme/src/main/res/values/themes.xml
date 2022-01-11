@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--公共文本颜色-->
+    <attr name="themt_xxx_text_color" format="reference|color" />
+    <attr name="theme_xxx_icon" format="reference" />
+
+    <style name="ViewTheme" />
+
+    <style name="ViewTheme.Light">
+        <item name="themt_xxx_text_color">#C12323</item>
+        <item name="theme_xxx_icon">@mipmap/a</item>
+    </style>
+
+    <style name="ViewTheme.Dark">
+        <item name="themt_xxx_text_color">#352C2C</item>
+        <item name="theme_xxx_icon">@mipmap/ic_launcher</item>
+    </style>
+
+</resources>
